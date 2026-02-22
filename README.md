@@ -15,7 +15,9 @@ If you use this project in your research, please cite:
 
 If you plan to train and evaluate models with this codebase, I strongly recommend reading the Google FFN documentation on **data preparation and preprocessing**, which this project intentionally does not replicate in full.
 
-The goal of this project is to lower the engineering barrier and help FFN regain momentum—making it easier for the community to extend, improve, and build new ideas on top of a proven method.
+While there have been several projects on GitHub to reimplement FFN in PyTorch, many of them are either incomplete (missing a full data loading pipeline) or based on older versions. For this reason, I decided to build a PyTorch implementation myself.
+
+This project aims to faithfully reproduce the original Google FFN, with both training and inference working properly. More importantly, the goal is to lower the engineering barrier and make it easier for the community to build upon, improve, and explore new ideas based on this proven method.
 
 ---
 
