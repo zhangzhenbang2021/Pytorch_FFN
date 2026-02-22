@@ -6,8 +6,8 @@ import imageio.v2 as imageio
 # ======================
 # User config (edit here only)
 # ======================
-NPZ_PATH = "/home/zhangzb/code/segmentation/claude/ffn-master/tmp/ffn_output/0/0/seg-0_0_0.npz"     # Input NPZ path
-OUT_DIR = "/home/zhangzb/code/segmentation/claude/ffn-master/tmp/ffn_output/sample_pngs_inference"   # Output directory
+NPZ_PATH = "./tmp/ffn_output/0/0/seg-0_0_0.npz"     # Input NPZ path
+OUT_DIR = "./tmp/ffn_output/sample_pngs_inference"   # Output directory
 KEY = None                             # None = auto-pick; or "segmentation"/"seg"/"prob"
 MODE = "labels"                       # "labels" or "gray"
 AXIS = 0                              # 0=z, 1=y, 2=x
